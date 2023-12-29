@@ -1,3 +1,97 @@
-div{
-    
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+
+    background-color: rgba(32, 32, 32, 0.805);
+    padding: 20px;
+    color:bisque;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo-img{
+    width:160px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 5px;
+    font-size: 18px;
+    cursor:pointer;
+}
+.item:hover{
+    color:chocolate;
+}
+.banner-photo{
+    width:300px;
+}
+.banner-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:100vh;
+    color:white;
+    background-image: url("./images/background.png"), linear-gradient(45deg,rgb(8,8,8),#000);
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.describe{
+    font-size: 25px;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.btn{
+    padding:10px 20px;
+    background-color: red;
+    border:none;
+    color:white;
+    cursor: pointer;
+}
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.about{
+    text-align: center;
+    padding: 10px;
+}
+.p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    width:300px;
+    height:300px;
+    background-color: black;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    margin:10px;
+}
+.icon{
+    width:70px;
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.bp{
+    margin-bottom:20px;
 }

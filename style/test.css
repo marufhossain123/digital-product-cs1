@@ -3,4 +3,30 @@
 }
 .test{
   color:blueviolet;
+  cursor: pointer;
+}
+.container{
+  /* display: inline; */
+  display: flex;
+  /* justify-content: space-between;
+   */
+   /* justify-content: center; */
+   justify-content: space-around;
+   align-items: center;
+   /* flex-direction: row-reverse; */
+   height: 500px;
+   
+}
+.box{
+  background-color: brown;
+  padding:25px;
+  width:150px;
+}
+.box2{
+
+  background-color: blue;
+}
+.box3{
+  background-color: blueviolet;
+  
 }
